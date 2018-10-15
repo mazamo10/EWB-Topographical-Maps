@@ -3,11 +3,8 @@
 #%%
 
 from numpy import *
-import pandas as pd
-from scipy.optimize import *
 import matplotlib.pyplot as plt
-from mpl_toolkits import mplot3d
-from scipy.spatial import Delaunay
+from contours import *
 
 #%% Refrence values
 a=91                                # Distance in feet between A and instrument

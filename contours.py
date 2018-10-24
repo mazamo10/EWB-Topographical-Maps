@@ -1,4 +1,4 @@
-def Contours(Points,X,Y,Z,step_size):
+def Contours(X,Y,Z,step_size):
     
     
     from scipy.spatial import Delaunay
@@ -7,6 +7,7 @@ def Contours(Points,X,Y,Z,step_size):
     import matplotlib.pyplot as plt
     
     
+    Points=hstack((X,Y))
     tri=Delaunay(Points)
 
     triangles=tri.simplices

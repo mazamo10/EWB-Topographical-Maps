@@ -148,8 +148,7 @@ X=reshape(X,(size(X),1))
 Y=reshape(Y,(size(Y),1))
 Z=reshape(Z,(size(Z),1))
 
-Points=hstack((X,Y))
 
 #%%
-Contours(Points,X,Y,Z,1/2)
+Contours(X,Y,Z,1/2)
 

@@ -3,6 +3,8 @@
 #%%
 
 from numpy import *
+import pandas as pd
+from scipy.optimize import fsolve
 import matplotlib.pyplot as plt
 from contours import *
 
